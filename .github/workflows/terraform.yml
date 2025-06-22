@@ -2,16 +2,10 @@ name: Terraform CI
 
 on:
   push:
-    branches: [ main
-                dev
-                feature/*
-    ]
+    branches: [ main ]
 
   pull_request:
-    branches: [ main
-                dev
-                feature/*
-    ]
+    branches: [ main ]
 
 jobs:
   terraform:
